@@ -2,7 +2,7 @@
 title: Optimistic Nihilist
 email: vcavallo@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  testing deploy again
+  testing deploy again again again
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://optimisticnihilist.com" # the base hostname & protocol for your site
 twitter_username: vcavallo
