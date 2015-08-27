@@ -6,6 +6,16 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://optimisticnihilist.com" # the base hostname & protocol for your site
 twitter_username: vcavallo
+timezone: America/New_York
 
 # Build settings
 markdown: kramdown
+
+# Defauls
+defaults:
+  -
+    scope:
+      path: "posts"
+    values:
+      layout: "post"
+      #author: how to use site.data.authors?
