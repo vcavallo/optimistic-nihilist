@@ -5,9 +5,21 @@ layout: default
 
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </header>
+    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}
+      {% if page.author %}
+        {% assign author = site.data.authors[page.author] %}
+        by <a href="{{ author.url }}">{{ author.name }}</a>
+      {% else %}
+        by Anonymous
+      {% endif %}
+      {% if page.meta %}
+        • {{ page.meta }}
+      {% endif %}
+    </p>
+    <div class="form-field">
+    </header>
 
+    </div>
   <article class="post-content">
     {{ content }}
   </article>
