@@ -23,7 +23,7 @@ am deeply convinced that "meaning" is a nonsense topic [link TK] but 99% of the 
 that idea doesn't get me down at all. In fact, my knee-jerk reaction to that thought 
 is to smile and laugh - it's absolutely hilarious that we are bizarre, self-aware piles 
 of biological complexity! I strive to enjoy that bare fact as much as I can. It makes 
-no sense that we can feel feelings anyway, but it makes less sense to feel bad about it.  
+no sense that we can feel feelings anyway, but it makes even less sense to feel bad about it.  
 
 > "And if thou laugh long into an abyss, the abyss will also laugh into to thee."
 
